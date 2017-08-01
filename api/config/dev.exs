@@ -43,4 +43,7 @@ config :relack, Relack.Repo,
   hostname: "localhost",
   pool_size: 10
 
+config :guardian, Guardian,
+  secret_key: "0JQSEb0McsAAnA644xwpfHVEBpCLJkTLNaTxTAyrUfAR+sUwn/4iG39RD16cpz+Y"
+
 import_config "dev.secret.exs"
